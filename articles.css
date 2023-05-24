@@ -1,0 +1,204 @@
+* {
+
+  margin: 0;
+  padding: 0;
+}
+
+
+.article-menu {
+  float: left;
+  position: absolute;
+  width: 600px;
+  height: 782px;
+  background-image: url("https://e0.pxfuel.com/wallpapers/650/956/desktop-wallpaper-man-mountain-lake-landscape-standard-5-4-background-man-on-mountain.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.main-text {
+  display: inline-block;
+width: 285px;
+margin-top: 326px;
+margin-left: 158px;
+text-transform: uppercase;
+font-family: 'Bebas Neue';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+color: #FFFFFF;
+
+}
+.blog-link {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+width: 164px;
+height: 48px;
+margin-top: 24px;
+margin-left: 158px;
+text-decoration: none;
+background: #1E90FF;
+}
+.blog-link-icon {
+  display: inline-block;
+  width: 20px;
+  height: 19px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Five-pointed_star.svg/1088px-Five-pointed_star.svg.png");
+  background-position: center center;
+  background-size: contain;
+
+}
+.blog-link-text {
+display: inline-block;
+width: 84px;
+height: 24px;
+padding: 12px;
+padding-top: 15px;
+font-family: 'Bebas Neue';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+color: #FFFFFF;
+text-transform: uppercase;
+}
+
+.sidebar {
+  float: right;
+  width: 600px;
+  height: 782px;
+  background: #FEFEFE;
+}
+.article-title {
+  width: 201px;
+  height: 29px;
+  margin-top: 54px;
+  margin-left: -60px;
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #222222;
+
+}
+.article-border {
+  width: 492px;
+  height: 0px;
+  margin-top: 24px;
+  margin-left: -60px;
+  margin-bottom: 24px;
+  border: 1px solid #999999;
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: -350px;
+
+}
+
+.wrapper {
+  display: flex;
+  margin-left: 16px;
+  margin-bottom: 15px; /* Add margin to create space between image and text */
+}
+
+.article-img {
+  width: 160px;
+  height: 90px;
+  border: 4px;
+  margin-left: -60px;
+  margin-right: 16px;
+}
+
+.article-text {
+  display: block;
+  width: 307px;
+  height: 22px;
+}
+
+.article-date {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: -310px; /* Add margin to create space between text and date */
+}
+
+.text {
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 2px;
+  color: #222222;
+}
+
+.logo-article {
+  display: inline-block;
+  width: 14px;
+  height: 10px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/PICOL_icon_View.svg/1200px-PICOL_icon_View.svg.png");
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.article-published-date {
+  width: 70px;
+  height: 16px;
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #888888;
+}
+
+.logo-view {
+  display: inline-block;
+  width: 14px;
+  height: 10px;
+  background-image: url("https://w7.pngwing.com/pngs/587/702/png-transparent-computer-icons-clock-font-awesome-clock-angle-time-share-icon.png");
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.article-view {
+  width: 52px;
+  height: 16px;
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #666666;
+}
+.link-more {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 492px;
+  height: 40px;
+  margin-top: 35px;
+  margin-left: -60px;
+  padding: 12px;
+  position: absolute;
+  background: #1E90FF;
+  border-radius: 4px;
+}
+.link {
+  text-decoration: none;
+  width: 74px;
+  height: 16px;
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+}

@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+.main-content {
+  flex-grow: 1;
+}
+
+.box {
+  border: 2px solid black;
+
+}
+.box::before {
+  content: "lorem";
+  background-color: black;
+  color: white;
+
+}
+.box::after {
+  content: "lorem";
+  background-color: red;
+
+}
+.location-picker-icon {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-image: url("https://www.svgrepo.com/show/127575/location-sign.svg");
+  background-size: contain;
+  background-position: center center;
+}
+
+.catalog-toggler-icon {
+  display: inline-block;
+width: 16px;
+height: 16px;
+background-image: url("https://www.svgrepo.com/download/12219/menu.svg");
+background-size: contain;
+background-position: center center;
+
+
+}
+.login-link {
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+}
+.login-link-icon {
+  display: block;
+  height: 24px;
+  background-image: url("https://www.svgrepo.com/show/86725/person.svg");
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
